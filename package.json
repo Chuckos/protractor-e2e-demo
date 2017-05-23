@@ -1,0 +1,25 @@
+{
+  "name": "protractor-e2e-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of how I create automated test using [protractor](http://www.protractortest.org/#/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuckos/protractor-e2e-demo.git"
+  },
+  "keywords": [
+    "protractor"
+  ],
+  "author": "Charles Adeeko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chuckos/protractor-e2e-demo/issues"
+  },
+  "homepage": "https://github.com/Chuckos/protractor-e2e-demo#readme",
+  "devDependencies": {
+    "protractor": "^5.1.2"
+  }
+}
