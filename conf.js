@@ -8,7 +8,7 @@ exports.config = {
 
     // Spec patterns are relative to this directory.
     specs: [
-        'basic/*_spec.js'
+        './test/e2e/*_spec.js'
     ],
 
     // Exclude patterns are relative to this directory.
@@ -18,7 +18,7 @@ exports.config = {
 
     capabilities: env.capabilities,
 
-    baseUrl: env.baseUrl + '/ng1/',
+    baseUrl: env.baseUrl + '/',
 
     params: {
         login: {
